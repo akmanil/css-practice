@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: bisque;
+}
+img{
+    float: left;
+    margin-right: 1rem;
+}
+.clear{
+    clear:both;
+    direction: ltr;
+    writing-mode: horizontal-tb;
+}
+
+.last{
+    direction: ltr;
+    writing-mode: horizontal-tb;
+    text-transform: capitalize;
+    text-shadow: 12px;
+    letter-spacing: 2px;
+    text-decoration: line-through;
+    text-decoration-color: rgb(228, 137, 137);
+    text-decoration-style:dotted ;
+
+    /* its are all the direction of fonts what shoould will i write */
+}

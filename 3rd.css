@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: black;
+
+    color: aliceblue;
+}
+/* .container h1 , .con2 li{
+    color: cadetblue;
+} 
+    for multi selection of the id and classes atributes etc.*/
+.con2:hover{
+    background-color: rgb(255, 255, 255);
+}
+.container h1{
+    text-shadow: rgb(212, 21, 21) 2px 2px;
+}
+
+.con2 > li {
+    background-color: rgb(63, 232, 232);
+    
+}
+.con2 li{
+    color: black;
+    list-style-type: none;
+}
+.btn{
+    background-color: aliceblue;
+    
+    color: black;
+    border-radius: 30px;
+    height: 30px;
+    width: 90px;
+}
+.btn:hover{
+    background-color: brown;
+    box-shadow: none;
+    font-size: larger;
+    width:250px;
+    height: 50px;
+    color: aliceblue;
+    font-weight: 800;
+    font-family: monospace;
+}
+.cont{
+    height: 40px;
+    width:350px;
+    background-color: aqua;
+    background: transparent;
+    border: 3px solid green;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    color: red;
+    
+}
+.gradient{
+    height:500px;
+    width:500px;
+    background: linear-gradient(to left top,red ,blue ,orange);
+    border-radius: 50%;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+   
+    
+}
+ .gradient .inside{
+    height:450px;
+    width:450px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-top:6%;
+    background-color: black;
+    
+
+ }
+
+
